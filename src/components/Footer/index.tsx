@@ -10,7 +10,7 @@ import { Button } from "@/styles/Buttons";
 export const Footer = (): JSX.Element => {
   return (
     <FooterWrapper>
-      <Container>
+      <Container id="social">
         <Flex>
           <UserImage
             src={`https://github.com/${userData.githubUser}.png`}
