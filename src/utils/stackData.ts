@@ -1,5 +1,7 @@
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiPostgresql, SiTypescript } from "react-icons/si";
+import typeorm from "../public/static/img/stack/typeorm.svg";
+import express from "../public/static/img/stack/express.svg";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
   FaDocker,
@@ -9,6 +11,13 @@ import {
   FaNode,
   FaReact,
 } from "react-icons/fa";
+import {
+  SiSqlite,
+  SiDjango,
+  SiChakraui,
+  SiStyledcomponents,
+  SiExpress,
+} from "react-icons/si";
 
 export const stackData = [
   {
@@ -37,4 +46,10 @@ export const stackData = [
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  { title: "Sqlite", img: SiSqlite },
+  { title: "Django", img: SiDjango },
+  { title: "Typeorm", img: typeorm },
+  { title: "Express", img: SiExpress },
+  { title: "Styled-components", img: SiStyledcomponents },
+  { title: "Chakra-ui", img: SiChakraui },
 ];
